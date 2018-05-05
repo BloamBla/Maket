@@ -76,7 +76,7 @@ a.but1, a.but2, a.but3 {
     padding-top: 8px;
 }
 
-a.but1:active, a.but2:active, a.but3:active {
+a.but1:hover, a.but2:hover, a.but3:hover {
     color: black;
     background: white;
     border-bottom: none;
@@ -116,13 +116,6 @@ h2 {
     padding-top: 10px;
 }
 
-.tab {
-    width: 100%;
-    min-height: 15px;
-    position: relative;
-    font-size: 14px;
-}
-
 p {
     margin: 0;
     padding-left: 10px;
@@ -147,14 +140,32 @@ li {
     background: rgb(56, 56, 56);
 }
 
-a.white-block1, a.white-block2, a.white-block3, a.white-block4, a.white-block5, a.white-block6 {
+.vert-block1 ul {
+    margin: 10px;
+    padding: 0;
+    background: rgb(56, 56, 56);
+}
+
+li.left-links {
+    width: 100%;
+    height: 35px;
+    list-style-type: none;
+    position: relative;
+    top: 8px;
+}
+
+.ul-back {
+    min-height: 200px;
+}
+
+.ul-back a {
+    display: block;
     color: white;
     text-decoration: none;
 }
 
-a.white-block1:hover, a.white-block2:hover, a.white-block3:hover, a.white-block4:hover, a.white-block5:hover,
-a.white-block6:hover {
-    color: black;
+.ul-back a:hover {
     background: white;
+    color: black;
     text-decoration: underline;
 }
