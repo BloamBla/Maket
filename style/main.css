@@ -68,15 +68,12 @@ body{
     margin: 0;
 }
 
-.case {
-    position: relative;
-    top: 8px;
-}
-
 a.but1, a.but2, a.but3 {
+    height:100%;
     color: white;
     font-size: 14px;
     text-decoration: none;
+    padding-top: 8px;
 }
 
 a.but1:active, a.but2:active, a.but3:active {
