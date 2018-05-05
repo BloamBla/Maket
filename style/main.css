@@ -2,6 +2,7 @@ body{
     height: 100%;
     width: auto;
     background: white;
+    font-family: Arial, serif;
 }
 
 .main-block {
@@ -12,14 +13,14 @@ body{
 }
 
 .block1 {
-    width: 80%;
+    width: 60%;
     height: 100px;
     background: rgb(204, 204, 204);
     border: 1px solid black;
 }
 
 .buttons {
-    width: 80%;
+    width: 60%;
     height: 30px;
     background: rgb(56, 56, 56);
     position: relative;
@@ -56,14 +57,12 @@ body{
 }
 
 .epam-font {
-    font-family: Arial, serif;
     font-size: 24px;
     color: rgb(100, 100, 100);
     margin: 0;
 }
 
 .ui-font {
-    font-family: Arial, serif;
     font-size: 14px;
     color: rgb(100, 100, 100);
     margin: 0;
@@ -74,14 +73,13 @@ body{
     top: 8px;
 }
 
-a {
+a.but1, a.but2, a.but3 {
     color: white;
     font-size: 14px;
-    font-family: Arial, serif;
     text-decoration: none;
 }
 
-a:active {
+a.but1:active, a.but2:active, a.but3:active {
     color: black;
     background: white;
     border-bottom: none;
@@ -89,7 +87,7 @@ a:active {
 
 .block2 {
     height: 450px;
-    width: 80%;
+    width: 60%;
     margin-top: 15px;
     display: inline-flex;
 }
@@ -109,46 +107,57 @@ a:active {
 
 h2 {
     margin: 5px 10px;
-    font-family: Arial, serif;
     font-size: 18px;
 }
 
 .vert-tab {
     margin: 10px;
     width: 90%;
-    height: 200px;
+    min-height: 200px;
     background: rgb(56, 56, 56);
+    display: grid;
+    padding-top: 10px;
 }
 
 .tab {
     width: 100%;
-    height: 23.33px;
-    padding-top: 10px;
+    min-height: 15px;
+    position: relative;
+    font-size: 14px;
 }
 
 p {
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: Arial, serif;
     font-size: 12px;
     line-height: 1.5em;
 }
 
 h3{
     margin: 10px;
-    font-family: Arial, serif;
     font-size: 16px;
 }
 
 li {
-    font-family: Arial, serif;
     font-size: 14px;
     line-height: 1.4em;
 }
 
 .bottom-bar {
-    width: 80%;
+    width: 60%;
     height: 25px;
     background: rgb(56, 56, 56);
+}
+
+a.white-block1, a.white-block2, a.white-block3, a.white-block4, a.white-block5, a.white-block6 {
+    color: white;
+    text-decoration: none;
+}
+
+a.white-block1:hover, a.white-block2:hover, a.white-block3:hover, a.white-block4:hover, a.white-block5:hover,
+a.white-block6:hover {
+    color: black;
+    background: white;
+    text-decoration: underline;
 }
