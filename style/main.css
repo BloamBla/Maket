@@ -150,7 +150,6 @@ li.left-links {
     width: 100%;
     min-height: 25px;
     list-style-type: none;
-    padding-top: 8px;
 }
 
 .ul-back {
@@ -161,13 +160,11 @@ li.left-links {
     display: block;
     color: white;
     text-decoration: none;
-}
-
-.ul-back li:hover {
-    background: white;
+    padding-top: 8px;
 }
 
 .ul-back a:hover {
+    background: white;
     color: black;
     text-decoration: underline;
 }
