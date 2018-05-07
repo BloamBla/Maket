@@ -75,12 +75,14 @@ a.nav-menu-item:hover {
   font-size: 24px;
   color: rgb(100, 100, 100);
   margin: 0;
+  text-transform: uppercase;
 }
 
 .ui-font {
   font-size: 14px;
   color: rgb(100, 100, 100);
   margin: 0;
+  text-transform: uppercase;
 }
 
 .body-block {
